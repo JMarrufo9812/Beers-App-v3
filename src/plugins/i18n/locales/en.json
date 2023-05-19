@@ -1,0 +1,15 @@
+{
+  "hello": "Hello",
+  "sections": {
+    "main": "Main",
+    "about": "About",
+    "pinia": "Pinia",
+    "quasar": "Quasar"
+  },
+  "error": {
+    "not_found": "Oops! We could not find what you were looking for",
+    "server_disconnected": "Server not reachable",
+    "server_error": "Server error",
+    "bad_request": "Bad request"
+  }
+}
