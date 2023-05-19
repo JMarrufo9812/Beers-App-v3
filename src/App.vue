@@ -1,8 +1,8 @@
 <template>
   <q-layout view="hHr LpR lFf">
-    <Appbar />
+    <!-- <Appbar /> -->
 
-    <Sidebar />
+    <!-- <Sidebar /> -->
 
     <q-page-container>
       <q-page padding>
@@ -13,8 +13,8 @@
 </template>
 
 <script setup lang="ts">
-import Appbar from '@/components/layout/Appbar.vue'
-import Sidebar from '@/components/layout/Sidebar.vue'
+// import Appbar from '@/components/layout/Appbar.vue'
+// import Sidebar from '@/components/layout/Sidebar.vue'
 import { watch } from 'vue'
 import { RouterView } from 'vue-router'
 import { useErrorStore } from '@/store/state'

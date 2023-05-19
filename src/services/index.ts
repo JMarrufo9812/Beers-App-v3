@@ -63,8 +63,6 @@ function removePromise(options: CustomPropertiesRequestConfig) {
 export async function makeRequest<T>(
   options: CustomPropertiesRequestConfig,
   mappingFunction: Function,
-  noAuth?: boolean,
-  authToken?: string,
   disableStatusHandling?: DisableStatusHandling
 ): Promise<T> {
   const currentPromise = getPromise(options)
